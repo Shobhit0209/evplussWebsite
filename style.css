@@ -152,7 +152,7 @@ p {
   width: 100%;
   background-position: top 50% right 0%;
   background-size: cover;
-  padding: 180px 40px 40px 40px; /* Increased top padding to account for header */
+  padding: 100px 20px 20px 20px; /* Increased top padding to account for header */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -493,7 +493,10 @@ footer .footertext h1 {
   }
 
   #hero {
-    padding: 120px 20px 40px 20px;
+    background-position: center center;
+    background-size: contain; /* Shows full image, may have bars */
+    padding: 40px 10px 10px 10px;
+    height: 100vh;
   }
 
   #hero .animated-text {
