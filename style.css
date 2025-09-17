@@ -475,7 +475,7 @@ footer .footertext h1 {
 }
 
 /* For Mobile Devices */
-@media (max-width: 477px) {
+@media (max-width: 600px) {
   #header {
     padding: 10px 30px;
   }
@@ -493,41 +493,75 @@ footer .footertext h1 {
   }
 
   #hero {
-    background-position: center center;
-    background-size: contain; /* Shows full image, may have bars */
+    background-position: top center;
+    background-size: cover;
     padding: 40px 10px 10px 10px;
-    height: 100vh;
+    height: calc(50vh - 40px);
+    background-repeat: no-repeat;
   }
 
   #hero .animated-text {
-    font-size: 20px;
     white-space: normal;
-    line-height: 1.4;
+    line-height: 1.65;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin-top: 60px;
   }
 
   #fastestlocatorbanner {
-    padding: 20px;
-    height: 60vh;
+    padding: 40px 10px 10px 10px;
+    height: calc(50vh - 40px);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    align-items: start;
   }
 
   #fastestlocatorbanner h4 {
-    font-size: 24px;
+    font-size: 16px;
+  }
+  #fastestlocatorbanner p {
+    font-size: 10px;
   }
 
   #brands .brand-container {
-    gap: 20px;
+    gap: 5px;
   }
 
   #brands .brand-container img {
-    height: 6vh;
+    height: 10vh;
   }
 
   #newsletter {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
-  #newsletter .newslettercontainer {
+  .newslettercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+  }
+
+  .newslettercontainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .background-video {
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: fill; /* Fill area, crop if needed */
+    border-radius: 0; /* Remove rounding for edge-to-edge look */
+    display: block;
   }
 
   footer {
@@ -544,11 +578,6 @@ footer .footertext h1 {
 
   footer .footertext h1 {
     font-size: 24px;
-  }
-
-  #newsletter input,
-  #newsletter textarea {
-    width: 100%;
   }
 }
 
