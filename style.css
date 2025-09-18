@@ -439,29 +439,69 @@ footer .footertext h1 {
   }
 
   #hero {
+    background-position: center center;
+    background-size: cover;
     padding: 140px 20px 40px 20px;
+    height: calc(50vh - 10px);
+    background-repeat: no-repeat;
   }
 
   #hero .animated-text {
-    font-size: 28px;
+    font-size: 25px;
+    white-space: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #fastestlocatorbanner {
     height: 70vh;
-    padding: 30px;
-    background-position: right 30% top 30%;
+    padding: 40px 10px 10px 10px;
+    height: calc(50vh - 10px);
+    background-size: cover;
+    background-position: center right 20%;
+    background-repeat: no-repeat;
+    align-items: start;
   }
 
   #fastestlocatorbanner h4 {
     font-size: 30px;
   }
 
+  .background-video {
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: fill; /* Fill area, crop if needed */
+    display: block;
+  }
+
   #brands .brand-container {
-    gap: 30px;
+    gap: 5px;
   }
 
   #brands .brand-container img {
-    height: 8vh;
+    height: 10vh;
+  }
+
+  #newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newslettercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .newslettercontainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   footer {
@@ -469,8 +509,8 @@ footer .footertext h1 {
   }
 
   footer .col {
-    width: 50%;
-    margin-bottom: 30px;
+    width: 60%;
+    margin-bottom: 20px;
   }
 }
 
