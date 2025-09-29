@@ -1,4 +1,4 @@
-⚡ Evpluss – Powering India’s EV Future
+⚡ Evpluss – Drive Electric. Live Pluss
 
 🚗🔋 Evpluss is India’s growing e-mobility service company, building a seamless ecosystem for EV owners, businesses, and commuters.
 We envision a cleaner, greener, and smarter India where electric mobility becomes the primary choice for everyone.
@@ -18,6 +18,8 @@ We envision a cleaner, greener, and smarter India where electric mobility become
 🗺️ Interactive Map – Locate charging stations in seconds.
 
 📊 Live Availability – Know which station is free before you get there.
+
+Coming Soon Features⏳
 
 💰 Smart Pricing – Compare tariffs & pick the best option.
 
